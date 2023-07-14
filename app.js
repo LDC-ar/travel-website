@@ -1,5 +1,5 @@
 // Smooth scrolling con jQuery
-$('#navbar a').on('click', function (e) {
+function scroll(e) {
 	if (this.hash !== '') {
 		e.preventDefault();
 
@@ -12,7 +12,10 @@ $('#navbar a').on('click', function (e) {
 			800
 		);
 	}
-});
+}
+
+$('#navbar a').on('click', scroll);
+$('#reserva').on('click', scroll);
 
 // Iniciar el servicio de emailjs
 emailjs.init('fxIIohwKqy6NCKbHj');

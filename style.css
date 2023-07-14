@@ -104,7 +104,7 @@ li:hover::after {
 .hero {
 	min-height: 100vh;
 	padding-inline: 5%;
-	background: linear-gradient(rgba(0, 0, 0, 0.8), transparent), url('./img/landing-page.jpg');
+	background: linear-gradient(rgba(0, 0, 0, 0.8), transparent), url('./img/landing-page.webp');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -119,10 +119,10 @@ li:hover::after {
 	padding: 0.6em 1.2em;
 	background: hsla(36, 100%, 47%, 1);
 	border: none;
-	color: #000;
 	cursor: pointer;
 	border-radius: 0.1em;
 	transition: background 0.5s ease-out;
+	color: #000;
 }
 .cta-button:hover {
 	background: hsla(36, 100%, 60%, 1);
@@ -132,7 +132,7 @@ li:hover::after {
 #lugares {
 	min-height: 100vh;
 	padding-inline: 5%;
-	background: linear-gradient(rgba(0, 0, 0, 0.1), transparent), url('./img/new-york-page.png');
+	background: linear-gradient(rgba(0, 0, 0, 0.1), transparent), url('./img/new-york-page.webp');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -245,7 +245,7 @@ li:hover::after {
 #contacto {
 	padding-inline: 5%;
 	min-height: 90vh;
-	background: linear-gradient(hsla(212, 28%, 25%, 1), transparent), url('./img/contact-mountain.png');
+	background: linear-gradient(hsla(212, 28%, 25%, 1), transparent), url('./img/contact-mountain.webp');
 	background-size: cover;
 	background-repeat: no-repeat;
 	padding-block: 100px;
