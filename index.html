@@ -24,76 +24,80 @@
 				</ul>
 			</nav>
 		</header>
-		<section id="hero" class="hero">
-			<h2>viaja mas allá de los limites.</h2>
-			<h3>Comienza tu viaje a un precio accesible con nosotros<br />Contactanos ahora debajo.</h3>
-			<a id="reserva" href="#contacto"><button class="cta-button">Reserva Ahora</button></a>
-		</section>
-		<section id="lugares">
-			<header class="lugares-head">
-				<h2>la experiencia de viaje perfecta.</h2>
-				<h3>Cubrimos todo desde elegir el hotel perfecto, vuelo y destino de viaje.</h3>
-				<img src="./img/cloud.webp" alt="nubes" class="moving-cloud-1 cloud" width="1124px" height="606px" />
-				<img src="./img/cloud.webp" alt="nubes" class="moving-cloud-2 cloud" width="1124px" height="606px" />
-			</header>
-		</section>
-		<section id="beneficios">
-			<header class="beneficios-head">
-				<h2>el viaje perfecto</h2>
-				<h3>Cubrimos todo desde elegir el hotel perfecto, vuelo y destino de viaje.</h3>
-			</header>
-			<div class="cards">
-				<div class="card">
-					<div class="card-icon">
-						<img src="./icons/route-solid.svg" alt="icono-ruta" loading="lazy" />
-					</div>
-					<h4>Viaja</h4>
-					<p>Viaja por 250 países sin esfuerzo.</p>
-				</div>
-				<div class="card">
-					<div class="card-icon">
-						<img src="./icons/bed-solid.svg" alt="icono-cama" loading="lazy" />
-					</div>
-					<h4>Hotel</h4>
-					<p>Hoteles ubicados en áreas populares.</p>
-				</div>
-				<div class="card">
-					<div class="card-icon">
-						<img src="./icons/plane-departure-solid.svg" alt="icono-avion" loading="lazy" />
-					</div>
-					<h4>Vuelos</h4>
-					<p>Vuelo incluido en cada viaje.</p>
-				</div>
-			</div>
-		</section>
-		<section id="contacto">
-			<div class="contacto">
-				<header class="contacto-head">
-					<h2>Contactanos</h2>
+		<main>
+			<section id="hero" class="hero">
+				<h2>viaja mas allá de los limites.</h2>
+				<h3>Comienza tu viaje a un precio accesible con nosotros<br />Contactanos ahora debajo.</h3>
+				<a id="reserva" href="#contacto"><button class="cta-button">Reserva Ahora</button></a>
+			</section>
+			<section id="lugares">
+				<header class="lugares-head">
+					<h2>la experiencia de viaje perfecta.</h2>
+					<h3>Cubrimos todo desde elegir el hotel perfecto, vuelo y destino de viaje.</h3>
+					<img src="./img/cloud.webp" alt="nubes" aria-hidden="true" class="moving-cloud-1 cloud" width="1124px" height="606px" />
+					<img src="./img/cloud.webp" alt="nubes" aria-hidden="true" class="moving-cloud-2 cloud" width="1124px" height="606px" />
 				</header>
-				<!-- Email.js form -->
-				<form id="formulario-contacto">
-					<div class="nombre-form">
-						<label for="nombre">Nombre:</label>
-						<input type="text" id="nombre" name="nombre" required />
+			</section>
+			<section id="beneficios">
+				<header class="beneficios-head">
+					<h2>el viaje perfecto</h2>
+					<h3>Cubrimos todo desde elegir el hotel perfecto, vuelo y destino de viaje.</h3>
+				</header>
+				<div class="cards">
+					<div class="card">
+						<div class="card-icon">
+							<img src="./icons/route-solid.svg" alt="icono-ruta" aria-hidden="true" loading="lazy" />
+						</div>
+						<h4>Viaja</h4>
+						<p>Viaja por 250 países sin esfuerzo.</p>
 					</div>
-					<div class="email-form">
-						<label for="email">Email:</label>
-						<input type="email" id="email" name="email" required />
+					<div class="card">
+						<div class="card-icon">
+							<img src="./icons/bed-solid.svg" alt="icono-cama" aria-hidden="true" loading="lazy" />
+						</div>
+						<h4>Hotel</h4>
+						<p>Hoteles ubicados en áreas populares.</p>
 					</div>
-					<div class="mensaje-form">
-						<label for="mensaje">Mensaje:</label>
-						<textarea id="mensaje" cols="30" rows="7" required></textarea>
+					<div class="card">
+						<div class="card-icon">
+							<img src="./icons/plane-departure-solid.svg" alt="icono-avion" aria-hidden="true" loading="lazy" />
+						</div>
+						<h4>Vuelos</h4>
+						<p>Vuelo incluido en cada viaje.</p>
 					</div>
-					<button type="submit" class="cta-button">Enviar</button>
-				</form>
-			</div>
-		</section>
+				</div>
+			</section>
+			<section id="contacto">
+				<div class="contacto">
+					<header class="contacto-head">
+						<h2>Contactanos</h2>
+					</header>
+					<!-- Email.js form -->
+					<form id="formulario-contacto">
+						<div class="nombre-form">
+							<label for="nombre">Nombre:</label>
+							<input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre" required />
+						</div>
+						<div class="email-form">
+							<label for="email">Email:</label>
+							<input type="email" id="email" name="email" placeholder="Ingresa tu email" required />
+						</div>
+						<div class="mensaje-form">
+							<label for="mensaje">Mensaje:</label>
+							<textarea id="mensaje" cols="30" rows="7" placeholder="Ingresa tu mensaje" required></textarea>
+						</div>
+						<button type="submit" class="cta-button">Enviar</button>
+					</form>
+				</div>
+			</section>
+		</main>
+
 		<footer>
 			<div class="footer-wrapper">
 				<p>Travel &copy; <a href="https://leandro-castagno.com/" target="_blank">Leandro Castagno</a></p>
-				<a class="twitter" href="https://twitter.com/LeandroCastagno" target="_blank" alt="twitter"
-					><svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<a class="twitter" href="https://twitter.com/LeandroCastagno" target="_blank"
+					><svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg" aria-labelledby="title">
+						<title id="title" lang="es">Link twitter Leandro Castagno</title>
 						<g clip-path="url(#clip0)">
 							<path
 								d="M25 4.74844C24.0703 5.15625 23.0797 5.42656 22.0469 5.55781C23.1094 4.92344 23.9203 3.92656 24.3016 2.725C23.3109 3.31562 22.2172 3.73281 21.0516 3.96563C20.1109 2.96406 18.7703 2.34375 17.3078 2.34375C14.4703 2.34375 12.1859 4.64688 12.1859 7.47031C12.1859 7.87656 12.2203 8.26719 12.3047 8.63906C8.04375 8.43125 4.27344 6.38906 1.74062 3.27813C1.29844 4.04531 1.03906 4.92344 1.03906 5.86875C1.03906 7.64375 1.95312 9.21719 3.31562 10.1281C2.49219 10.1125 1.68437 9.87344 1 9.49688C1 9.5125 1 9.53281 1 9.55312C1 12.0437 2.77656 14.1125 5.10625 14.5891C4.68906 14.7031 4.23437 14.7578 3.7625 14.7578C3.43437 14.7578 3.10312 14.7391 2.79219 14.6703C3.45625 16.7 5.34063 18.1922 7.58125 18.2406C5.8375 19.6047 3.62344 20.4266 1.22656 20.4266C0.80625 20.4266 0.403125 20.4078 0 20.3562C2.27031 21.8203 4.96094 22.6562 7.8625 22.6562C17.2937 22.6562 22.45 14.8438 22.45 8.07187C22.45 7.84531 22.4422 7.62656 22.4312 7.40938C23.4484 6.6875 24.3031 5.78594 25 4.74844Z"
